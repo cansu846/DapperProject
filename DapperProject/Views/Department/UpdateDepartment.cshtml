@@ -1,0 +1,22 @@
+﻿@using DapperProject.Dtos.DepartmentDtos
+@model UpdateDepartmentDto
+@{
+    Layout = null;
+}
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <br /><br />
+    <form method="post">
+        <input type="hidden" asp-for="DepartmentId"/>
+        <label>Departman Adı</label>
+        <input type="text" asp-for="DepartmentName" class="form-control" />
+        <br />
+        <button class="btn btn-info">Departman Guncelle</button>
+    </form>
+</div>

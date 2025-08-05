@@ -1,0 +1,21 @@
+﻿@using DapperProject.Dtos.DepartmentDtos
+@model CreateDepartmentDto
+@{
+    Layout = null;
+}
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <br /><br />
+   <form method="post">
+       <label>Departman Adı</label>
+       <input type="text" asp-for="DepartmentName" class="form-control"/>
+       <br />
+       <button class="btn btn-info">Departman Ekle</button>
+   </form>
+</div>

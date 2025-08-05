@@ -1,0 +1,28 @@
+﻿@using DapperProject.Dtos.EmployeeDtos
+@model UpdateEmployeeDto
+@{
+    Layout = null;
+}
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <br /><br />
+    <form method="post">
+        <input type="hidden" asp-for="EmpoyeeId"/>
+        <label>Calısan Adı</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>Soyad</label>
+        <input type="text" asp-for="Surname" class="form-control" />
+        <br />
+        <label>Maaş</label>
+        <input type="number" asp-for="Salary" class="form-control" />
+        <br />
+        <button class="btn btn-info">Calışan Guncelle</button>
+    </form>
+</div>
