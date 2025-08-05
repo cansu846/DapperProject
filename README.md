@@ -1,6 +1,6 @@
 ## Dapper Project
 
-Bu proje Murat Yücedağ hocanın egitmenliğinde 36.ders konumuz olan Dapper kullanılarak oluşturulmuştur. Amaç Dapperın nasıl çalıştıgını anlamak ve kullanımını gormektir.
+Bu proje Murat Yücedağ hocanın egitmenliğinde 36.ders konumuz ve 9.projemizin konusu olan Dapper kullanılarak oluşturulmuştur. Amaç Dapperın nasıl çalıştıgını anlamak ve kullanımını gormektir.
 
 ---
 
